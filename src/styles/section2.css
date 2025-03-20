@@ -1,0 +1,137 @@
+.container {
+	width: 100vw;
+	padding: 20px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	background-color: white;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1377px;
+	margin-bottom: 20px;
+}
+
+.controls {
+	display: flex;
+	border: 2px solid #dedede;
+	width: auto;
+	height: 35px;
+	align-items: center;
+	border-radius: 7px;
+	background-color: transparent;
+}
+
+.nav-button {
+	width: 40px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	color: black;
+	border: none;
+	cursor: pointer;
+	border-radius: 1px;
+	background-color: transparent;
+
+	transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.gallery {
+	display: flex;
+	gap: 15px;
+}
+
+.video-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 12px;
+	overflow: hidden;
+	background: #f8f9fa;
+	width: 200px;
+	transition: transform 0.3s ease-in-out;
+}
+.play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	height: 50px;
+	opacity: 0;
+	transition: opacity 0.3 ease-in-out;
+	pointer-events: none;
+}
+.video-container:hover {
+	transform: scale(1.05);
+}
+.video-container:hover .play-icon {
+	opacity: 1;
+}
+
+.iframe {
+	width: 100%;
+	height: 250px;
+	border-radius: 12px;
+	border: none;
+}
+
+.description {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.description h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.description p {
+	font-size: 12px;
+	color: #6c757d;
+}
+
+@media (max-width: 1200px) {
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media (max-width: 992px) {
+	.gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+	}
+	.video-container {
+		max-width: 180px;
+	}
+	.iframe {
+		height: 120px;
+	}
+}
+
+@media (max-width: 480px) {
+	.gallery {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

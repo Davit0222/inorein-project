@@ -1,0 +1,128 @@
+.container-footer {
+	color: #a6a6a6;
+}
+.top1 {
+	display: flex;
+	background-color: #e6e6e6;
+	width: 100%;
+	padding: 20px;
+	gap: 50px;
+}
+.footer-nav1 {
+	display: flex;
+	gap: 10px;
+	width: 30%;
+	height: 400px;
+	padding: 0 20px;
+}
+
+.footer-nav1-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.footer-nav1-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 90px;
+	margin-left: 40px;
+}
+.footer-nav1 > span {
+	display: flex;
+	color: red;
+}
+
+.footer-nav2 {
+	display: flex;
+	gap: 10px;
+	width: 30%;
+	height: 400px;
+	padding: 0 20px;
+}
+.footer-nav2-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+.footer-nav2-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 40px;
+	margin-left: 40px;
+	justify-content: flex-start;
+}
+
+button {
+	color: #a6a6a6;
+	display: flex;
+	justify-content: flex-start;
+}
+button:hover {
+	color: red;
+}
+.support {
+	font-size: 26px;
+}
+.support-bottom {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.span {
+	display: flex;
+	justify-content: flex-start;
+	color: #000;
+}
+
+.top2 {
+	display: flex;
+	gap: 100px;
+	background-color: #e6e6e6;
+	margin-top: -90px;
+	padding: 20px;
+}
+
+.application {
+	margin-left: 57px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 90px;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.social-media {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-left: 135px;
+}
+.social-media > span {
+	color: #666;
+}
+.application > span {
+	color: #666;
+}
+.app-button {
+	display: flex;
+	gap: 20px;
+}
+.app-button > img {
+	width: 124px;
+	height: 40px;
+	border-radius: 5px;
+}
+.social-button > img {
+	width: 40px;
+	height: 30px;
+}

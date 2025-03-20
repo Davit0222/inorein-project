@@ -1,0 +1,43 @@
+.header-nav {
+	margin-left: -20px;
+	display: flex;
+	align-items: center;
+	background-color: #1a1a1a;
+	height: 60px;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 90px;
+}
+.nav > ul {
+	display: flex;
+	list-style: none;
+	gap: 18px;
+}
+
+ul > li {
+	font-weight: bold;
+	letter-spacing: .8px;
+}
+
+ul > li > a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 14px;
+}
+.header-nav > .btn {
+	display: flex;
+	gap: 3px;
+	margin-left: 30px;
+}
+.header-nav > .btn > .fi-rs-menu-dots {
+	background-color: rgb(201, 202, 199);
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+}
+.p {
+	font-size: 12px;
+	color: white;
+}

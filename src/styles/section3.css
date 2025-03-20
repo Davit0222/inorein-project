@@ -1,0 +1,49 @@
+.section3 {
+	border-top: 1px solid gray;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+	align-items: center;
+	gap: 20px;
+}
+
+.trybtn {
+	display: flex;
+	align-items: center;
+	height: 56px;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background: none transparent;
+	transition: background-color .2s, border-color .2s;
+	background-color: #f60;
+	color: white;
+	font-weight: 900;
+	min-width: 210px;
+	justify-content: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+.trybtn:hover {
+	background-color: #f30;
+}
+.section3 > .p1 {
+	font-size: 34px;
+	text-transform: uppercase;
+}
+.section3 > .promo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+span {
+	color: red;
+}
+.aboutbtn {
+	font-size: 12px;
+}
+.aboutbtn:hover {
+	color: red;
+}
