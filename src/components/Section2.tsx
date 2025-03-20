@@ -68,25 +68,3 @@ function Section2({ name }: Props) {
 }
 
 export default Section2;
-
-// {videos
-// 	.slice(currentIndex, currentIndex + videosPerPage)
-// 	.map((video, index) => (
-// 		<div key={`${video.id}-${index}`} className="video-container">
-// 			<iframe
-// 				className="iframe"
-// 				width="560"
-// 				height="315"
-// 				src={`https://www.youtube.com/embed/${video.src}?enablejsapi=1`}
-// 				title={video.name}
-// 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-// 				referrerPolicy="strict-origin-when-cross-origin"
-// 				allowFullScreen
-// 			/>
-// 			<div className="description">
-// 				<h2>{video.name}</h2>
-// 				<p>{video.description}</p>
-// 				<p>{video.purchase}</p>
-// 			</div>
-// 		</div>
-// 	))}
